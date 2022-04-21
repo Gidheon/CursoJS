@@ -16,8 +16,20 @@ const meses2 = [...meses, 'Agosto']; //el orden influye
 console.log(meses2);
 
 
-const producto = {producto: 'Disco Duro', precio: 300};
+const producto = { producto: 'Disco Duro', precio: 300 };
 
-const carrito2= [...carrito,producto];
+const carrito2 = [...carrito, producto];
 
 console.log(carrito2);
+
+//error sprea operator
+
+const numeros = [1,[2,3],3];
+//const copyNumbers = [...numeros];
+
+const copyNumbers = JSON.parse(JSON.stringify(numeros)); //forma correcta de copiar los numeros
+
+copyNumbers[1][0] = 5;
+
+console.log(numeros [1][0]);
+console.log(copyNumbers[1][0]);

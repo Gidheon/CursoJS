@@ -8,11 +8,11 @@ const carrito = [
 ]
 
 //con un for each
-let total = 0 ;
-carrito.forEach(producto => total += producto.precio );
+let total = 0;
+carrito.forEach(producto => total += producto.precio);
 console.log(total);
 
 //para realizar operaciones de suma al total
 //con reduce
-let resultado =carrito.reduce((total,producto)=>total+producto.precio,0);
+let resultado = carrito.reduce((total, producto) => total + producto.precio, 0);
 console.log(resultado);

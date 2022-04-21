@@ -9,7 +9,7 @@ const carrito = [
 
 //con for each
 let resultado = '';
-carrito.forEach((producto,index) => {
+carrito.forEach((producto, index) => {
     if (producto.nombre === 'Tablet') {
         resultado = carrito[index];
     }

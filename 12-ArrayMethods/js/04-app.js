@@ -10,8 +10,8 @@ const carrito = [
 //para ir filtrando por lo que sea
 
 let resultado;
-resultado = carrito.filter(producto => producto.precio >400);
-resultado = carrito.filter(producto=> producto.precio < 600);
-resultado= carrito.filter(producto=>producto.nombre !== 'Audifonos');
-resultado= carrito.filter(producto=>producto.nombre === 'Audifonos');
+resultado = carrito.filter(producto => producto.precio > 400);
+resultado = carrito.filter(producto => producto.precio < 600);
+resultado = carrito.filter(producto => producto.nombre !== 'Audifonos');
+resultado = carrito.filter(producto => producto.nombre === 'Audifonos');
 console.log(resultado);
