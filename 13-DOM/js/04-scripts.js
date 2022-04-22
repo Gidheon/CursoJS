@@ -16,5 +16,5 @@ const formulario = document.querySelector('#formulario');
 console.log(formulario);
 
 //seleccionar elementos html
-const navegacion =document.querySelector('nav');
+const navegacion = document.querySelector('nav');
 console.log(navegacion);
